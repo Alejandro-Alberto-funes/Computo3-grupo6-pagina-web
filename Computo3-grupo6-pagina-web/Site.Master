@@ -15,7 +15,8 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    
+    <link href="CSS/1.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -38,32 +39,26 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+       <nav class="navegacion">
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="#">Servicio #1</a></li>
+						<li><a href="#">Servicio #2</a></li>
+						<li><a href="#">Servicio #3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+        </nav>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Very Tasy</p>
             </footer>
         </div>
 
