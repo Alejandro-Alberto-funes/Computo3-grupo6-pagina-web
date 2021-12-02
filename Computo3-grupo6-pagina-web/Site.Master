@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title><%: Page.Title %> - Very Tasty</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -15,8 +15,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    
-    <link href="CSS/1.css" rel="stylesheet" />
+    <link href="CSS/s1.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -41,16 +40,18 @@
         </asp:ScriptManager>
        <nav class="navegacion">
 			<ul class="menu">
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Nosotros</a></li>
-				<li><a href="#">Servicios</a>
+				<li><a href="Default.aspx">Inicio</a></li>
+                <li><a href="tabla.aspx">Tablas</a></li>
+				<li><a href="About.aspx">Acerca de</a></li>
+				<li><a href="combos.aspx">Combos</a>
 					<ul class="submenu">
-						<li><a href="#">Servicio #1</a></li>
-						<li><a href="#">Servicio #2</a></li>
-						<li><a href="#">Servicio #3</a></li>
+						<li><a href="#">Combo #1</a></li>
+						<li><a href="#">Combo #2</a></li>
+						<li><a href="#">Combo #3</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="Contact.aspx">Contacto</a></li>
+                <li><a href="Consulta.aspx">Consulta</a></li>
 			</ul>
         </nav>
         <div class="container body-content">

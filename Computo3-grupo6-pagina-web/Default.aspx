@@ -3,42 +3,43 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1>Very Tasty</h1>
+        <p class="lead">Somos tu mejor opcion tus comidas rapidas preferidas</p>
+        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Ver Promociones &raquo;</a></p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2> New Hamburguesa de Pescado</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                Disfruta de Nuestra Hamburguesa de Pescado
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Comprar Ahora &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2> New Frosty de BlueBerrys</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+               Disfruta nuestro Refrescante y Delicioso Frosty
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Comprar Ahora &raquo;</a>
             </p>
+        </div>
+        <div class="col-md-4">
+            <h2>New Hamburguesa de Pollo</h2>
+            <p>
+                Disfruta de Nuestra Hamburguesa de Pollo
+            </p>
+            <p>
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Comprar Ahora &raquo;</a>
+            </p>
+            <br />
             <div>
             <asp:Button ID="BtnCerrar" runat="server" Text="Cerrar Sesion" OnClick="BtnCerrar_Click"/>
         </div>
+            <br />
             <div> 
             <asp:Label ID="LblBienvenida" CssClass="h3" runat ="server" Text=""></asp:Label>
         </div>

@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="CSS/Estilos.css" rel="stylesheet" />
+    <link href="CSS/s41.css" rel="stylesheet" />
     <title>Login</title>
 </head>
-<body class="bg-light">
+<body>
     <div class="wrapper">
       <div class="formcontent">
            <form id="formulario_login" runat="server">
@@ -35,6 +35,7 @@
                    <div class="row">
                        <asp:Button ID="BtnIngresar" CssClass="btn btn-primary btn-dark" runat="server" Text="Ingresar" OnClick="BtnIngresar_Click" />
                    </div>
+                    <br />
                     <div>
                         <asp:Button ID="BtnRegistro" CssClass="btn btn-primary btn-info" runat="server" Text="Registrarse" OnClick="BtnRegistro_Click"/>
                     </div>
