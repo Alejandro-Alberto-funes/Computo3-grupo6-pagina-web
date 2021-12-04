@@ -45,13 +45,14 @@
 				<li><a href="About.aspx">Acerca de</a></li>
 				<li><a href="combos.aspx">Combos</a>
 					<ul class="submenu">
-						<li><a href="#">Combo #1</a></li>
-						<li><a href="#">Combo #2</a></li>
-						<li><a href="#">Combo #3</a></li>
+						<li><a href="combo1.aspx">Combo #1</a></li>
+						<li><a href="combo2.aspx">Combo #2</a></li>
+						<li><a href="combo3.aspx">Combo #3</a></li>
 					</ul>
 				</li>
 				<li><a href="Contact.aspx">Contacto</a></li>
                 <li><a href="Consulta.aspx">Consulta</a></li>
+                <li><a href="Inventario.aspx">Inventario</a></li>
 			</ul>
         </nav>
         <div class="container body-content">

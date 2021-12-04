@@ -106,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="combo1.aspx" />
+    <Content Include="combo2.aspx" />
+    <Content Include="combo3.aspx" />
     <Content Include="combos.aspx" />
     <Content Include="Consulta.aspx" />
     <Content Include="Contact.aspx" />
@@ -132,6 +135,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Inventario.aspx" />
     <Content Include="login.aspx" />
     <Content Include="registro.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -179,6 +183,27 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="combo1.aspx.cs">
+      <DependentUpon>combo1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="combo1.aspx.designer.cs">
+      <DependentUpon>combo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="combo2.aspx.cs">
+      <DependentUpon>combo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="combo2.aspx.designer.cs">
+      <DependentUpon>combo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="combo3.aspx.cs">
+      <DependentUpon>combo3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="combo3.aspx.designer.cs">
+      <DependentUpon>combo3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="combos.aspx.cs">
       <DependentUpon>combos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -209,6 +234,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.aspx.cs">
+      <DependentUpon>Inventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventario.aspx.designer.cs">
+      <DependentUpon>Inventario.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
