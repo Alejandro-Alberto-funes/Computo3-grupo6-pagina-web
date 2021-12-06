@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Combos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="combos.aspx.cs" Inherits="Computo3_grupo6_pagina_web.combos" %>
-< script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " > < / script >
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         <br />

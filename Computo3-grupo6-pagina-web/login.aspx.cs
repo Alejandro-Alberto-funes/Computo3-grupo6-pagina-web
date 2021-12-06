@@ -16,8 +16,8 @@ namespace Computo3_grupo6_pagina_web
         protected void BtnIngresar_Click(object sender, EventArgs e)
         {
 
-            SqlConnection sqlConectar = new SqlConnection(ConfigurationManager.ConnectionStrings["conexionBD"].ConnectionString);
-            SqlCommand cmd = new SqlCommand("SP_ValidarUsuario", sqlConectar)
+            SqlConnection sqlcConectar = new SqlConnection(ConfigurationManager.ConnectionStrings["conexionBD"].ConnectionString);
+            SqlCommand cmd = new SqlCommand("SP_ValidarUsuario",sqlcConectar)
             {
                 CommandType = CommandType.StoredProcedure
             };

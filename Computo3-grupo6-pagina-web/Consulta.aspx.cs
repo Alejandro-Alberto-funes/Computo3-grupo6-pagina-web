@@ -23,5 +23,11 @@ namespace Computo3_grupo6_pagina_web
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.SelectCommand = "SELECT id AS N#, descripcion AS Descripcion, existencia AS Existencia, entradas AS Entradas, salidas As Salidas, stock AS Stock FROM inventario Where descripcion Like'%"+Textnombre.Text+"%'";
+            SqlDataSource1.DataBind();
+        }
     }
 }
