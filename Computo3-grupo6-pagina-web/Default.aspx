@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Very Tasty</h1>
+        <h1>Very Tasty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
         <p class="lead">Somos tu mejor opcion tus comidas rapidas preferidas</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Ver Promociones &raquo;</a></p>
+        <p><a href="combos.aspx" class="btn btn-primary btn-lg">Ver Promociones &raquo;</a></p>
     </div>
 
     <div class="row">
@@ -15,7 +15,7 @@
                 Disfruta de Nuestra Hamburguesa de Pescado
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Comprar Ahora &raquo;</a>
+                <a class="btn btn-default" href="combo1.aspx">Comprar Ahora &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -24,7 +24,7 @@
                Disfruta nuestro Refrescante y Delicioso Frosty
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Comprar Ahora &raquo;</a>
+                <a class="btn btn-default" href="combo2.aspx">Comprar Ahora &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -33,7 +33,7 @@
                 Disfruta de Nuestra Hamburguesa de Pollo
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Comprar Ahora &raquo;</a>
+                <a class="btn btn-default" href="combo3.aspx">Comprar Ahora &raquo;</a>
             </p>
             <br />
             <div>

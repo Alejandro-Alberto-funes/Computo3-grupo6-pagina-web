@@ -13,5 +13,10 @@ namespace Computo3_grupo6_pagina_web
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

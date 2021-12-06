@@ -135,6 +135,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="image\52a6eace-thumbnail-l.png" />
+    <Content Include="image\descarga.jpg" />
+    <Content Include="image\hamburguesa-ppal.jpg" />
+    <Content Include="image\images.jpg" />
+    <Content Include="image\signo-de-neón-hamburguesa-rápida-ilustración-vectorial-la-promoción-los-alimentos-183723630.jpg" />
     <Content Include="Inventario.aspx" />
     <Content Include="login.aspx" />
     <Content Include="registro.aspx" />

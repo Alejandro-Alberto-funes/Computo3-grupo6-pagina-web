@@ -1,4 +1,4 @@
-﻿<%@ Page Title="T" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tabla.aspx.cs" Inherits="Computo3_grupo6_pagina_web.tabla" %>
+﻿<%@ Page Title="Tabla" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tabla.aspx.cs" Inherits="Computo3_grupo6_pagina_web.tabla" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
