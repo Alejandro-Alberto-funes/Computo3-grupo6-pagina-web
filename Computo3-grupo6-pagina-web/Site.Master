@@ -7,12 +7,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Very Tasty</title>
+    <title><%:Page.Title %> - Very Tasty</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="CSS/s1.css" rel="stylesheet" />
@@ -63,6 +62,23 @@
                 <p>&copy; <%: DateTime.Now.Year %> - Very Tasy</p>
             </footer>
         </div>
+        <div class="copyright" align="center">
+
+<a href="http://www.copyscape.com/"><img src="//banners.copyscape.com/img/copyscape-seal-black-120x100.png" width="120" height="100" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a>
+
+</div>
+
+<div class="copyright" align="center">
+    <script language="JavaScript">
+        document.write('&copy;');
+        document.write('Very Tasty');
+        document.write(' 2021 - ');
+        document.write(new Date().getFullYear());
+        document.write('Very Tasty.com  -Todos los derechos reservados. ');
+        document.write('<br /> Fecha Actualizada :');
+        document.write(document.lastModified);
+    </script>
+       </div>
 
     </form>
 </body>

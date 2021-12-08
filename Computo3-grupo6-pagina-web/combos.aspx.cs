@@ -16,7 +16,8 @@ namespace Computo3_grupo6_pagina_web
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "K", "swal('Good job!','You clicked the button!','success')", true);
+
         }
     }
 }
